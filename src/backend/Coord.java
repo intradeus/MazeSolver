@@ -5,8 +5,8 @@ public class Coord {
 
 	
 	//Attributs
-	private int x;
-	private int y;
+	protected int x;
+	protected int y;
 	private boolean start = false;
 	private boolean end = false;
 	
