@@ -1,5 +1,6 @@
 package backend;
 
+//CETTE CLASSE EST UNE COORDONNEE
 public class Coord {
 
 	
