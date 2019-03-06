@@ -29,6 +29,23 @@ public class Coord {
 		return "coordonnée x= " + x + " et y= " + y;
 	}
 	
+	public Coord getRight() {
+		return new Coord(x+1,y);	
+	}
+	
+	public Coord getLeft() {
+		return new Coord(x-1,y);	
+	}
+	
+	public Coord getTop() {
+		return new Coord(x,y+1);	
+	}
+	
+	public Coord getBot() {
+		return new Coord(x,y-1);	
+	}
+	
+	
 	
 	//mutateurs
 	public void setStart() {
@@ -46,5 +63,7 @@ public class Coord {
 	public void setY(int y) {
 		this.y = y;
 	}
+	
+	
 	
 }
